@@ -1,9 +1,7 @@
-// ResumoCategoriaActivity.java
 package com.example.minhasfinancas;
 
 import android.os.Bundle;
 import android.widget.TextView;
-import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class ResumoCategoriaActivity extends AppCompatActivity {

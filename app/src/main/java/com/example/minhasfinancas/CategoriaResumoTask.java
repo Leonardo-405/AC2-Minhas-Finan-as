@@ -2,7 +2,6 @@ package com.example.minhasfinancas;
 
 import android.os.AsyncTask;
 import android.widget.TextView;
-
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;

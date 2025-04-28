@@ -1,4 +1,3 @@
-// Gasto.java
 package com.example.minhasfinancas;
 
 public class Gasto {

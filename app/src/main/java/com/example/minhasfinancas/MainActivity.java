@@ -1,4 +1,3 @@
-// MainActivity.java
 package com.example.minhasfinancas;
 
 import android.content.Intent;
@@ -19,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onResume() {
         super.onResume();
         Log.d("MainActivity", "onResume chamado");
-        // Recria o adapter sempre que a tela volta ao foreground para garantir dados atualizados
+
         gastoAdapter = new GastoAdapter(this, GastoRepository.getListaGastos());
         Log.d("MainActivity", "onResume: Tamanho da lista ao criar adapter: " + GastoRepository.getListaGastos().size());
         listViewGastos.setAdapter(gastoAdapter);

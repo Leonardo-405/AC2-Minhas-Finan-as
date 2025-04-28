@@ -1,10 +1,8 @@
-// GastoRepository.java
 package com.example.minhasfinancas;
 
 import android.util.Log;
 
 import java.util.ArrayList;
-
 public class GastoRepository {
     private static ArrayList<Gasto> listaGastos = new ArrayList<>();
 

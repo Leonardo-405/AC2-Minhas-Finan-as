@@ -1,4 +1,3 @@
-// CadastroGastoActivity.java
 package com.example.minhasfinancas;
 
 import android.os.Bundle;
